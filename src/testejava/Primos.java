@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+   Classe para mostrar os números primos
  */
 package testejava;
 
@@ -19,7 +17,7 @@ public class Primos {
         System.out.println("Digite  um número:");
         int numero = sc.nextInt();
         int contador = 0;
-        for (int i = 1; i < numero; i++) {
+        for (int i = 1; i <=numero; i++) {
 
             if (numero % i == 0) {
                 contador++;
